@@ -20,10 +20,12 @@ NB : Vous devez documenter vos codes (idéalement inclure la javadoc)
 5/ Mettez en œuvre le pattern DAO pour réaliser des composants (ensemble de classe) d'accès à vos 3 tables.
 Le package co.simplon.dao doit contenir les classes CustomerDao, CountDao et OperationDao. Chaque classe redéfinira les méthodes find, create, update et delete présentes dans la classe mère Dao.
 Vous disposez des squelettes de class **CustomerDao** qu’il faudra compléter et de la classe mère **Dao**
+
 **VOIR DIAGRAMME DE CLASSE**
+
 Le package co.simplon.entities doit contenir les classes : Customer, Count et Operation
 
-6/ Élaborer des classes de tests en vous inspirant du projet précédent sans oublier que vos composants doivent être prêts à l'emploi pour notamment la partie métier de votre projet
+6/ Élaborer des classes de tests en vous inspirant du projet précédent sans oublier que vos composants doivent être prêts à l'emploi pour notamment la partie métier de votre projet.
 
 7/ Utiliser le pattern Singleton pour ne créer qu’une seule connexion pour les 3 composants.
 
@@ -31,4 +33,4 @@ Le package co.simplon.entities doit contenir les classes : Customer, Count et Op
 
 9/ Envoyer votre projet sur Github avec le script Bank.sql puis envoyer nous le lien.
 
-10/ Bonus : Comment pourriez vous gérer 2 types de comptes ? Courant et Epargne, l’un a droit à un découvert, l’autre a taux...
+10/ Bonus : La version finale comprend 2 types de comptes : Courant et Epargne, l’un a droit à un découvert, l’autre a taux aussi réfléchissez-y dès maintenant...
