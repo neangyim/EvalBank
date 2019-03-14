@@ -1,6 +1,11 @@
 package co.simplon.dao;
-
 import java.sql.Connection;
+
+/** 
+ * Application de gestion bancaire, partie DAO
+ * @version 1.1
+ * @author El babili
+ */
 
 public abstract class Dao<T> {
 
